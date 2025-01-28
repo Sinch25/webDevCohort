@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechNova - Annual Tech Trends Conference 2025</title>
     <link rel="stylesheet" href="Technova.css">
+
 <body>
     <div class="header">
         <div class="small-logo">TechNova</div>
@@ -16,21 +18,112 @@
     </div>
 
     <div class="timer-container">
+        <div class="countdown-timer">
+            <div>
+                <span class="label">Days</span>
+                <span class="value" id="days">00</span>
+            </div>
+            <span class="colon">:</span>
+            <div>
+                <span class="label">Hours</span>
+                <span class="value" id="hours">00</span>
+            </div>
+            <span class="colon">:</span>
+            <div>
+                <span class="label">Minutes</span>
+                <span class="value" id="minutes">00</span>
+            </div>
+            <span class="colon">:</span>
+            <div>
+                <span class="label">Seconds</span>
+                <span class="value" id="seconds">00</span>
+            </div>
+        </div>
+    </div>
+    <div class="intro">
         <h1>Tech<span style="color: #FFC107;">Nova</span> Presents</h1>
-        <h2>Annual Tech Trends Conference 2025</h2>
-        <button class="register-button">Register Now!!</button>
+        <h2>🎉Annual Tech Trends Conference 2025🎉</h2>
+    </div>
+    <button class="register-button">Register Now!!</button>
+    </div>
+
+    <div class="conference-details" id="about">
+        <h2>About the Conference</h2>
+        <p>Join us for the Annual Tech Trends Conference 2025, where industry leaders and innovators come together to
+            discuss the latest trends and advancements in technology. This event is a must-attend for anyone looking to
+            stay
+            ahead in the tech world.</p>
+        <h3>Objective</h3>
+        <p>The objective of the TechNova Annual Tech Trends Conference 2025 is to bring together technology enthusiasts,
+            professionals, and industry leaders to explore and discuss the latest trends, innovations, and future
+            directions in the tech industry. This conference aims to provide valuable insights, networking
+            opportunities, and hands-on experiences to help attendees stay ahead in the rapidly evolving tech landscape.
+        </p>
+
+        <h3>Key Features</h3>
+        <ul>
+            <li>Inspiring keynote speeches from top industry leaders</li>
+            <li>Panel discussions on cutting-edge topics such as AI, blockchain, and cybersecurity</li>
+            <li>Interactive workshops and hands-on sessions</li>
+            <li>Networking opportunities with professionals and experts</li>
+            <li>Exhibition of the latest tech products and innovations</li>
+            <li>Opportunities for Q&A sessions with speakers</li>
+        </ul>
+        <h3>Speakers</h3>
+        <ul>
+            <li>Elon Musk - CEO of SpaceX and Tesla</li>
+            <li>Sundar Pichai - CEO of Google</li>
+            <li>Satya Nadella - CEO of Microsoft</li>
+            <li>Sheryl Sandberg - COO of Facebook</li>
+        </ul>
+
+        <h3>Schedule</h3>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Event</th>
+            </tr>
+            <tr>
+                <td>9:00 AM</td>
+                <td>Opening Keynote by Elon Musk</td>
+            </tr>
+            <tr>
+                <td>10:30 AM </td>
+                <td>Panel Discussion: The Future of AI</td>
+            </tr>
+            <tr>
+                <td>12:00 PM </td>
+                <td>Lunch Break</td>
+            </tr>
+            <tr>
+                <td>1:30 PM</td>
+                <td>Workshop: Building Scalable Applications</td>
+            </tr>
+            <tr>
+                <td>3:00 PM</td>
+                <td>Closing Remarks by Sundar Pichai</td>
+            </tr>
+        </table>
     </div>
 
     <div class="speakers-section" id="speakers">
         <h2 class="speakers-title">Event Speakers</h2>
         <div class="speakers">
             <div class="speaker">
-                <img src="elon_musk.jpg" alt="Elon Musk">
+                <img src="elon.jpeg" alt="Elon Musk">
                 <p>Elon Musk</p>
             </div>
             <div class="speaker">
-                <img src="sundar_pichai.jpg" alt="Sundar Pichai">
+                <img src="sundar.jpeg" alt="Sundar Pichai">
                 <p>Sundar Pichai</p>
+            </div>
+            <div class="speaker">
+                <img src="satya.jpeg" alt="Satya Nadella">
+                <p>Satya Nadella</p>
+            </div>
+            <div class="speaker">
+                <img src="sheryl.jpeg" alt="Sheryl Sandberg">
+                <p>Sheryl Sandberg</p>
             </div>
         </div>
     </div>
@@ -43,5 +136,7 @@
             <button type="submit">Submit</button>
         </form>
     </div>
+    <script src="index.js"></script>
 </body>
+
 </html>
