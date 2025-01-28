@@ -8,3 +8,6 @@ Contributors:
 Harshitha J
 Raksha
 Sinchana N
+
+Checkout our webpage here:
+https://technova-events.netlify.app/
